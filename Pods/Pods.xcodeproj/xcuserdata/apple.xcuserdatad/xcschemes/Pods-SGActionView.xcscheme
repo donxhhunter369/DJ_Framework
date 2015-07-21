@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49284C1C2B997E51E9BB8F5B"
+               BlueprintIdentifier = "6FC6284A406554AC708E8D3D"
                BuildableName = "libPods-SGActionView.a"
                BlueprintName = "Pods-SGActionView"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -26,6 +26,7 @@ PODS:
   - FMDB/standard (2.5):
     - FMDB/common
   - ICViewPager (1.5.1)
+  - JDStatusBarNotification (1.5.2)
   - JSONKit (1.4)
   - JSONModel (0.13.0)
   - KxMenu (1)
@@ -33,9 +34,9 @@ PODS:
   - Onboard (2.1.5)
   - Reachability (3.2)
   - SAMCategories (0.5.2)
-  - SDWebImage (3.7.2):
-    - SDWebImage/Core (= 3.7.2)
-  - SDWebImage/Core (3.7.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
   - SGActionView (0.0.1)
   - SSKeychain (1.2.3)
   - TouchJSON (1.1)
@@ -47,6 +48,7 @@ DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - FMDB (~> 2.3)
   - ICViewPager (~> 1.5)
+  - JDStatusBarNotification
   - JSONKit (~> 1.4)
   - JSONModel (~> 0.13.0)
   - KxMenu (~> 1)
@@ -64,6 +66,7 @@ SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
   ICViewPager: 032dc71a50fe898e185fae6112ded4bed0e0523c
+  JDStatusBarNotification: a36d09ccbb047217572b074a61e7ca10dddc5f0a
   JSONKit: 5b69e804ea54d99293eed0fd2ce596c5703fefb0
   JSONModel: 5a431961fd11a46840b17cc2bf5ba0b31d210fb3
   KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
@@ -71,7 +74,7 @@ SPEC CHECKSUMS:
   Onboard: c58adaef5a377b0c45b4754c5cbe17d4627898c7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SAMCategories: bf8287f7961a0b343168d1fee16338dc1626ea39
-  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   SGActionView: 7d7f2af343936932cab8302749e5345a1732c0b7
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74
