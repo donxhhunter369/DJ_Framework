@@ -25,9 +25,6 @@
 -(void)saveAllowShake:(BOOL)isAllowShake;
 -(BOOL)getIsAllowShake;
 
-#pragma mark - 是否中文
-//是否是中文
-+ (BOOL)isIncludeChineseInString:(NSString*)str;
 
 #pragma mark - json转换
 //将对象转换成Json字符串
@@ -60,9 +57,6 @@
 +(NSString*)base64EncodedStringWithJPEGImage:(UIImage*)image WithCompressionQuality:(CGFloat) compressionQuality;
 +(NSString*)base64EncodedStringWithPNGImage:(UIImage*)image;
 
-#pragma mark - URL编码
-+(NSString*)urlEncoded:(NSString*)str;
-+(NSString*)urlDecoded:(NSString*)str;
 
 
 #pragma mark - 图片缩放

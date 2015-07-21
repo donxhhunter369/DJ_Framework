@@ -109,16 +109,7 @@ static DJUtilities *shareInstance = nil;
     }
 }
 
-#pragma mark - 是否是中文
-+ (BOOL)isIncludeChineseInString:(NSString*)str {
-    for (int i=0; i<str.length; i++) {
-        unichar ch = [str characterAtIndex:i];
-        if (0x4e00 < ch  && ch < 0x9fff) {
-            return true;
-        }
-    }
-    return false;
-}
+
 
 #pragma mark - 将对象转换成Json字符串
 +(NSString *)jsonString:(id)object{
@@ -296,15 +287,7 @@ static DJUtilities *shareInstance = nil;
 }
 
 
-#pragma mark - url编码
-+(NSString*)urlEncoded:(NSString*)str {
-    NSString *encodeUrlString = [str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    return encodeUrlString;
-}
-+(NSString*)urlDecoded:(NSString*)str {
-    NSString * decodeUrlString = [str stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    return decodeUrlString;
-}
+
 
 
 #pragma mark - 图片缩放/压缩

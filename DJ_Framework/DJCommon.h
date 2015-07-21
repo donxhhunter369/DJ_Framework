@@ -9,6 +9,8 @@
 #ifndef DJ_Framework_DJCommon_h
 #define DJ_Framework_DJCommon_h
 
+#pragma mark - Precompile 添加category和extension预编译
+#import "DJ_Precompile.h"
 
 // 日志输出宏定义
 #ifdef XXX //DEBUG

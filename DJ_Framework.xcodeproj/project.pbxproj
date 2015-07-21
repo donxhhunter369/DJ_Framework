@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1834B4FC1B5DDB0A0072EE82 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B4F91B5DDB0A0072EE82 /* AwesomeMenu.m */; };
+		1834B4FD1B5DDB0A0072EE82 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B4FB1B5DDB0A0072EE82 /* AwesomeMenuItem.m */; };
+		1834B4FF1B5DDE770072EE82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834B4FE1B5DDE770072EE82 /* QuartzCore.framework */; };
+		1834B5031B5DDE980072EE82 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B5021B5DDE980072EE82 /* iCarousel.m */; };
+		1834B5061B5DE9DB0072EE82 /* UIImage+DJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B5051B5DE9DB0072EE82 /* UIImage+DJExtension.m */; };
+		1834B50F1B5DF0D30072EE82 /* DJ_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B50E1B5DF0D30072EE82 /* DJ_Runtime.m */; };
+		1834B5121B5DF1590072EE82 /* DJ_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B5111B5DF1590072EE82 /* DJ_Singleton.m */; };
+		1834B5151B5DF31B0072EE82 /* NSArray+DJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B5141B5DF31B0072EE82 /* NSArray+DJExtension.m */; };
+		1834B5181B5DF49B0072EE82 /* NSObject+DJTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B5171B5DF49B0072EE82 /* NSObject+DJTypeConversion.m */; };
+		1834B51B1B5DF5620072EE82 /* NSObject+DJJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B51A1B5DF5620072EE82 /* NSObject+DJJSON.m */; };
+		1834B51E1B5DF6670072EE82 /* NSDictionary+DJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B51D1B5DF6670072EE82 /* NSDictionary+DJExtension.m */; };
+		1834B5211B5DFA6D0072EE82 /* DJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B5201B5DFA6D0072EE82 /* DJBaseModel.m */; };
 		18CF8BED1B452FF700520270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF8BEC1B452FF700520270 /* main.m */; };
 		18CF8BF01B452FF700520270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF8BEF1B452FF700520270 /* AppDelegate.m */; };
 		18CF8BF31B452FF700520270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF8BF21B452FF700520270 /* ViewController.m */; };
@@ -95,6 +107,10 @@
 		18D00C7C1B465EE5006556E8 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D00C741B465EE5006556E8 /* greenButton@2x.png */; };
 		18D00C7D1B465EE5006556E8 /* lightGray_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D00C751B465EE5006556E8 /* lightGray_btn.png */; };
 		18D00C7E1B465EE5006556E8 /* lightGray_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D00C761B465EE5006556E8 /* lightGray_btn@2x.png */; };
+		18D00D1E1B467AB5006556E8 /* LTPopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D00D1D1B467AB5006556E8 /* LTPopButton.m */; };
+		18FC2E331B5CF307000F805C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FC2E321B5CF306000F805C /* CoreMedia.framework */; };
+		18FC2E3C1B5CF7B4000F805C /* UIColor+DJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC2E3B1B5CF7B4000F805C /* UIColor+DJExtension.m */; };
+		18FC2E3F1B5CF9E5000F805C /* NSString+DJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC2E3E1B5CF9E5000F805C /* NSString+DJExtension.m */; };
 		2EB6A0CED6C3F25270E6FF73 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 423C463FF7D0B87DC8CC9992 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +125,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1834B4F81B5DDB0A0072EE82 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
+		1834B4F91B5DDB0A0072EE82 /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
+		1834B4FA1B5DDB0A0072EE82 /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
+		1834B4FB1B5DDB0A0072EE82 /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
+		1834B4FE1B5DDE770072EE82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1834B5011B5DDE980072EE82 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		1834B5021B5DDE980072EE82 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		1834B5041B5DE9DB0072EE82 /* UIImage+DJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DJExtension.h"; sourceTree = "<group>"; };
+		1834B5051B5DE9DB0072EE82 /* UIImage+DJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DJExtension.m"; sourceTree = "<group>"; };
+		1834B50D1B5DF0D30072EE82 /* DJ_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJ_Runtime.h; sourceTree = "<group>"; };
+		1834B50E1B5DF0D30072EE82 /* DJ_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJ_Runtime.m; sourceTree = "<group>"; };
+		1834B5101B5DF1590072EE82 /* DJ_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJ_Singleton.h; sourceTree = "<group>"; };
+		1834B5111B5DF1590072EE82 /* DJ_Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJ_Singleton.m; sourceTree = "<group>"; };
+		1834B5131B5DF31B0072EE82 /* NSArray+DJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DJExtension.h"; sourceTree = "<group>"; };
+		1834B5141B5DF31B0072EE82 /* NSArray+DJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DJExtension.m"; sourceTree = "<group>"; };
+		1834B5161B5DF49B0072EE82 /* NSObject+DJTypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DJTypeConversion.h"; sourceTree = "<group>"; };
+		1834B5171B5DF49B0072EE82 /* NSObject+DJTypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DJTypeConversion.m"; sourceTree = "<group>"; };
+		1834B5191B5DF5620072EE82 /* NSObject+DJJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DJJSON.h"; sourceTree = "<group>"; };
+		1834B51A1B5DF5620072EE82 /* NSObject+DJJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DJJSON.m"; sourceTree = "<group>"; };
+		1834B51C1B5DF6670072EE82 /* NSDictionary+DJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DJExtension.h"; sourceTree = "<group>"; };
+		1834B51D1B5DF6670072EE82 /* NSDictionary+DJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DJExtension.m"; sourceTree = "<group>"; };
+		1834B51F1B5DFA6D0072EE82 /* DJBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJBaseModel.h; sourceTree = "<group>"; };
+		1834B5201B5DFA6D0072EE82 /* DJBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJBaseModel.m; sourceTree = "<group>"; };
 		18CF8BE71B452FF700520270 /* DJ_Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJ_Framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CF8BEB1B452FF700520270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CF8BEC1B452FF700520270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -231,6 +270,15 @@
 		18D00C741B465EE5006556E8 /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
 		18D00C751B465EE5006556E8 /* lightGray_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightGray_btn.png; sourceTree = "<group>"; };
 		18D00C761B465EE5006556E8 /* lightGray_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightGray_btn@2x.png"; sourceTree = "<group>"; };
+		18D00D1C1B467AB5006556E8 /* LTPopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPopButton.h; sourceTree = "<group>"; };
+		18D00D1D1B467AB5006556E8 /* LTPopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPopButton.m; sourceTree = "<group>"; };
+		18FC2E211B5CEC39000F805C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		18FC2E231B5CEDE1000F805C /* DJ_Precompile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJ_Precompile.h; sourceTree = "<group>"; };
+		18FC2E321B5CF306000F805C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18FC2E3A1B5CF7B4000F805C /* UIColor+DJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DJExtension.h"; sourceTree = "<group>"; };
+		18FC2E3B1B5CF7B4000F805C /* UIColor+DJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DJExtension.m"; sourceTree = "<group>"; };
+		18FC2E3D1B5CF9E5000F805C /* NSString+DJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DJExtension.h"; sourceTree = "<group>"; };
+		18FC2E3E1B5CF9E5000F805C /* NSString+DJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DJExtension.m"; sourceTree = "<group>"; };
 		423C463FF7D0B87DC8CC9992 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98CED9906C52E155D4DEE80 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C73C0870739702F881821131 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -241,6 +289,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1834B4FF1B5DDE770072EE82 /* QuartzCore.framework in Frameworks */,
+				18FC2E331B5CF307000F805C /* CoreMedia.framework in Frameworks */,
 				2EB6A0CED6C3F25270E6FF73 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +305,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1834B4F61B5DDAE70072EE82 /* DJMySelfLibs */ = {
+			isa = PBXGroup;
+			children = (
+				18D00C611B463DFD006556E8 /* DJMyButton.h */,
+				18D00C621B463DFD006556E8 /* DJMyButton.m */,
+				18D00C641B463E32006556E8 /* DJMyImageRightButton.h */,
+				18D00C651B463E32006556E8 /* DJMyImageRightButton.m */,
+				18D00C6B1B465E4D006556E8 /* DJVerifyButton.h */,
+				18D00C6C1B465E4D006556E8 /* DJVerifyButton.m */,
+			);
+			name = DJMySelfLibs;
+			sourceTree = "<group>";
+		};
+		1834B4F71B5DDB0A0072EE82 /* AwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1834B4F81B5DDB0A0072EE82 /* AwesomeMenu.h */,
+				1834B4F91B5DDB0A0072EE82 /* AwesomeMenu.m */,
+				1834B4FA1B5DDB0A0072EE82 /* AwesomeMenuItem.h */,
+				1834B4FB1B5DDB0A0072EE82 /* AwesomeMenuItem.m */,
+			);
+			path = AwesomeMenu;
+			sourceTree = "<group>";
+		};
+		1834B5001B5DDE980072EE82 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				1834B5011B5DDE980072EE82 /* iCarousel.h */,
+				1834B5021B5DDE980072EE82 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
 		18CF8BDE1B452FF700520270 = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +361,7 @@
 		18CF8BE91B452FF700520270 /* DJ_Framework */ = {
 			isa = PBXGroup;
 			children = (
+				18FC2DCD1B5CE743000F805C /* DJ+Extension(Bee) */,
 				18D00C541B463B4C006556E8 /* DJDataBase */,
 				18D00C471B463AE0006556E8 /* DJCategory */,
 				18CF8C151B453EA400520270 /* Images */,
@@ -337,6 +421,8 @@
 		18CF8C121B453E6F00520270 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1834B51F1B5DFA6D0072EE82 /* DJBaseModel.h */,
+				1834B5201B5DFA6D0072EE82 /* DJBaseModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -344,13 +430,12 @@
 		18CF8C131B453E7B00520270 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				1834B5001B5DDE980072EE82 /* iCarousel */,
+				1834B4F71B5DDB0A0072EE82 /* AwesomeMenu */,
+				1834B4F61B5DDAE70072EE82 /* DJMySelfLibs */,
 				18D00C671B463E94006556E8 /* CoreAnimationEffect */,
-				18D00C611B463DFD006556E8 /* DJMyButton.h */,
-				18D00C621B463DFD006556E8 /* DJMyButton.m */,
-				18D00C641B463E32006556E8 /* DJMyImageRightButton.h */,
-				18D00C651B463E32006556E8 /* DJMyImageRightButton.m */,
-				18D00C6B1B465E4D006556E8 /* DJVerifyButton.h */,
-				18D00C6C1B465E4D006556E8 /* DJVerifyButton.m */,
+				18D00D1C1B467AB5006556E8 /* LTPopButton.h */,
+				18D00D1D1B467AB5006556E8 /* LTPopButton.m */,
 			);
 			name = Libs;
 			sourceTree = "<group>";
@@ -365,6 +450,7 @@
 				18D00C351B462D8F006556E8 /* DJAccountTool.h */,
 				18D00C361B462D8F006556E8 /* DJAccountTool.m */,
 				18D00C3B1B462E08006556E8 /* DJCommon.h */,
+				18FC2E231B5CEDE1000F805C /* DJ_Precompile.h */,
 				18D00C3C1B462E84006556E8 /* DJSocialConfig.h */,
 				18D00C3D1B463715006556E8 /* DJURLConfig.h */,
 				18D00C3E1B463793006556E8 /* DJHttpTool.h */,
@@ -537,6 +623,39 @@
 			name = ButtonImages;
 			sourceTree = "<group>";
 		};
+		18FC2DCD1B5CE743000F805C /* DJ+Extension(Bee) */ = {
+			isa = PBXGroup;
+			children = (
+				18FC2DDF1B5CEAE7000F805C /* SystemExtension */,
+			);
+			name = "DJ+Extension(Bee)";
+			sourceTree = "<group>";
+		};
+		18FC2DDF1B5CEAE7000F805C /* SystemExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18FC2E3A1B5CF7B4000F805C /* UIColor+DJExtension.h */,
+				18FC2E3B1B5CF7B4000F805C /* UIColor+DJExtension.m */,
+				18FC2E3D1B5CF9E5000F805C /* NSString+DJExtension.h */,
+				18FC2E3E1B5CF9E5000F805C /* NSString+DJExtension.m */,
+				1834B5041B5DE9DB0072EE82 /* UIImage+DJExtension.h */,
+				1834B5051B5DE9DB0072EE82 /* UIImage+DJExtension.m */,
+				1834B5131B5DF31B0072EE82 /* NSArray+DJExtension.h */,
+				1834B5141B5DF31B0072EE82 /* NSArray+DJExtension.m */,
+				1834B5161B5DF49B0072EE82 /* NSObject+DJTypeConversion.h */,
+				1834B5171B5DF49B0072EE82 /* NSObject+DJTypeConversion.m */,
+				1834B5191B5DF5620072EE82 /* NSObject+DJJSON.h */,
+				1834B51A1B5DF5620072EE82 /* NSObject+DJJSON.m */,
+				1834B51C1B5DF6670072EE82 /* NSDictionary+DJExtension.h */,
+				1834B51D1B5DF6670072EE82 /* NSDictionary+DJExtension.m */,
+				1834B50D1B5DF0D30072EE82 /* DJ_Runtime.h */,
+				1834B50E1B5DF0D30072EE82 /* DJ_Runtime.m */,
+				1834B5101B5DF1590072EE82 /* DJ_Singleton.h */,
+				1834B5111B5DF1590072EE82 /* DJ_Singleton.m */,
+			);
+			name = SystemExtension;
+			sourceTree = "<group>";
+		};
 		3806633AE2279D7C1452F611 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +668,9 @@
 		54C90DEC0541EF93DF97DD25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1834B4FE1B5DDE770072EE82 /* QuartzCore.framework */,
+				18FC2E321B5CF306000F805C /* CoreMedia.framework */,
+				18FC2E211B5CEC39000F805C /* libxml2.dylib */,
 				423C463FF7D0B87DC8CC9992 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -747,19 +869,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D00C341B462618006556E8 /* DJLoginViewController.m in Sources */,
+				1834B4FD1B5DDB0A0072EE82 /* AwesomeMenuItem.m in Sources */,
 				18CF8BF31B452FF700520270 /* ViewController.m in Sources */,
+				1834B5151B5DF31B0072EE82 /* NSArray+DJExtension.m in Sources */,
 				18D00C311B4624F4006556E8 /* DJMakeGuideView.m in Sources */,
+				18D00D1E1B467AB5006556E8 /* LTPopButton.m in Sources */,
 				18D00C461B4638AF006556E8 /* DJAnalyzer.m in Sources */,
+				18FC2E3C1B5CF7B4000F805C /* UIColor+DJExtension.m in Sources */,
 				18D00C531B463B21006556E8 /* UIWebView+TS_JavaScriptContext.m in Sources */,
 				18D00C401B463793006556E8 /* DJHttpTool.m in Sources */,
+				1834B5061B5DE9DB0072EE82 /* UIImage+DJExtension.m in Sources */,
 				18CF8C191B4540C200520270 /* DJBaseViewController.m in Sources */,
+				1834B51B1B5DF5620072EE82 /* NSObject+DJJSON.m in Sources */,
+				1834B4FC1B5DDB0A0072EE82 /* AwesomeMenu.m in Sources */,
 				18D00C501B463B14006556E8 /* UIImage+OKW.m in Sources */,
 				18D00C2D1B462222006556E8 /* DJUtilities.m in Sources */,
 				18D00C5A1B463B88006556E8 /* DJDBQueueManager.m in Sources */,
 				18D00C371B462D8F006556E8 /* DJAccountTool.m in Sources */,
+				1834B51E1B5DF6670072EE82 /* NSDictionary+DJExtension.m in Sources */,
+				1834B5211B5DFA6D0072EE82 /* DJBaseModel.m in Sources */,
+				1834B5121B5DF1590072EE82 /* DJ_Singleton.m in Sources */,
+				1834B5031B5DDE980072EE82 /* iCarousel.m in Sources */,
 				18D00C4A1B463AEB006556E8 /* NSString+OKW.m in Sources */,
 				18D00C6A1B463E94006556E8 /* CoreAnimationEffect.m in Sources */,
+				18FC2E3F1B5CF9E5000F805C /* NSString+DJExtension.m in Sources */,
 				18D00BD91B461D22006556E8 /* FirstViewController.m in Sources */,
+				1834B50F1B5DF0D30072EE82 /* DJ_Runtime.m in Sources */,
 				18CF8C1F1B45410900520270 /* DJBaseTabBarController.m in Sources */,
 				18D00BDC1B461D2E006556E8 /* SecondViewController.m in Sources */,
 				18D00C661B463E32006556E8 /* DJMyImageRightButton.m in Sources */,
@@ -771,6 +906,7 @@
 				18D00C431B463899006556E8 /* DJNetRequest.m in Sources */,
 				18CF8BED1B452FF700520270 /* main.m in Sources */,
 				18D00C631B463DFD006556E8 /* DJMyButton.m in Sources */,
+				1834B5181B5DF49B0072EE82 /* NSObject+DJTypeConversion.m in Sources */,
 				18CF8C1C1B4540E900520270 /* DJBaseNavigationController.m in Sources */,
 				18D00C2A1B4621DD006556E8 /* DJUserConfig.m in Sources */,
 			);
