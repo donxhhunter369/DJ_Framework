@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181BB3CB1B65CAAC0045B5E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181BB3CA1B65CAAC0045B5E1 /* Security.framework */; };
+		181BB3CF1B65DC770045B5E1 /* DJ_Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB3CE1B65DC770045B5E1 /* DJ_Keychain.m */; };
 		1834B4FC1B5DDB0A0072EE82 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B4F91B5DDB0A0072EE82 /* AwesomeMenu.m */; };
 		1834B4FD1B5DDB0A0072EE82 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B4FB1B5DDB0A0072EE82 /* AwesomeMenuItem.m */; };
 		1834B4FF1B5DDE770072EE82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834B4FE1B5DDE770072EE82 /* QuartzCore.framework */; };
@@ -125,6 +127,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181BB3CA1B65CAAC0045B5E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		181BB3CD1B65DC770045B5E1 /* DJ_Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJ_Keychain.h; sourceTree = "<group>"; };
+		181BB3CE1B65DC770045B5E1 /* DJ_Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJ_Keychain.m; sourceTree = "<group>"; };
 		1834B4F81B5DDB0A0072EE82 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
 		1834B4F91B5DDB0A0072EE82 /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
 		1834B4FA1B5DDB0A0072EE82 /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
@@ -289,6 +294,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181BB3CB1B65CAAC0045B5E1 /* Security.framework in Frameworks */,
 				1834B4FF1B5DDE770072EE82 /* QuartzCore.framework in Frameworks */,
 				18FC2E331B5CF307000F805C /* CoreMedia.framework in Frameworks */,
 				2EB6A0CED6C3F25270E6FF73 /* libPods.a in Frameworks */,
@@ -305,6 +311,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181BB3CC1B65DC2E0045B5E1 /* DJCache */ = {
+			isa = PBXGroup;
+			children = (
+				181BB3CD1B65DC770045B5E1 /* DJ_Keychain.h */,
+				181BB3CE1B65DC770045B5E1 /* DJ_Keychain.m */,
+			);
+			name = DJCache;
+			sourceTree = "<group>";
+		};
 		1834B4F61B5DDAE70072EE82 /* DJMySelfLibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +376,7 @@
 		18CF8BE91B452FF700520270 /* DJ_Framework */ = {
 			isa = PBXGroup;
 			children = (
+				181BB3CC1B65DC2E0045B5E1 /* DJCache */,
 				18FC2DCD1B5CE743000F805C /* DJ+Extension(Bee) */,
 				18D00C541B463B4C006556E8 /* DJDataBase */,
 				18D00C471B463AE0006556E8 /* DJCategory */,
@@ -668,6 +684,7 @@
 		54C90DEC0541EF93DF97DD25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				181BB3CA1B65CAAC0045B5E1 /* Security.framework */,
 				1834B4FE1B5DDE770072EE82 /* QuartzCore.framework */,
 				18FC2E321B5CF306000F805C /* CoreMedia.framework */,
 				18FC2E211B5CEC39000F805C /* libxml2.dylib */,
@@ -881,6 +898,7 @@
 				1834B5061B5DE9DB0072EE82 /* UIImage+DJExtension.m in Sources */,
 				18CF8C191B4540C200520270 /* DJBaseViewController.m in Sources */,
 				1834B51B1B5DF5620072EE82 /* NSObject+DJJSON.m in Sources */,
+				181BB3CF1B65DC770045B5E1 /* DJ_Keychain.m in Sources */,
 				1834B4FC1B5DDB0A0072EE82 /* AwesomeMenu.m in Sources */,
 				18D00C501B463B14006556E8 /* UIImage+OKW.m in Sources */,
 				18D00C2D1B462222006556E8 /* DJUtilities.m in Sources */,

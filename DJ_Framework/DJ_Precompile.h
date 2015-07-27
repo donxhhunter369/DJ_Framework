@@ -10,10 +10,6 @@
 #ifndef DJ_Framework_DJ_Precompile_h
 #define DJ_Framework_DJ_Precompile_h
 
-#pragma mark -
-#undef	ERROR
-#define ERROR( ... )
-
 #import "UIColor+DJExtension.h"
 #import "NSString+DJExtension.h"
 #import "UIImage+DJExtension.h"

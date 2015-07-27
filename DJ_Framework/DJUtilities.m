@@ -580,7 +580,19 @@ static DJUtilities *shareInstance = nil;
     
     return NO;
 }
-
++ (NSString *)appIdentifier
+{
+#if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
+    static NSString * __identifier = nil;
+    if ( nil == __identifier )
+    {
+        __identifier = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
+    }
+    return __identifier;
+#else	// #if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
+    return @"";
+#endif	// #if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
+}
 
 @end
 

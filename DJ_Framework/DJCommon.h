@@ -9,11 +9,16 @@
 #ifndef DJ_Framework_DJCommon_h
 #define DJ_Framework_DJCommon_h
 
+#pragma mark -
+#undef	ERROR
+#define ERROR( ... )
+
 #pragma mark - Precompile 添加category和extension预编译
 #import "DJ_Precompile.h"
 
 // 日志输出宏定义
-#ifdef XXX //DEBUG
+#define DJDEBUG
+#ifdef DJDEBUG //DEBUG
 // 调试状态
 #define DJLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__,   __LINE__, ##__VA_ARGS__);
 #else

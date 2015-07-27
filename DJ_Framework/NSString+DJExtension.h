@@ -48,6 +48,15 @@ typedef NSMutableString *	(^NSMutableStringReplaceBlock)( NSString * string, NSS
 - (BOOL)isEmail;
 - (BOOL)isUrl;
 - (BOOL)isIPAddress;
+
+
+- (NSString *)substringFromIndex:(NSUInteger)from untilString:(NSString *)string;
+- (NSString *)substringFromIndex:(NSUInteger)from untilString:(NSString *)string endOffset:(NSUInteger *)endOffset;
+
+- (NSString *)substringFromIndex:(NSUInteger)from untilCharset:(NSCharacterSet *)charset;
+- (NSString *)substringFromIndex:(NSUInteger)from untilCharset:(NSCharacterSet *)charset endOffset:(NSUInteger *)endOffset;
+- (NSUInteger)countFromIndex:(NSUInteger)from inCharset:(NSCharacterSet *)charset;
+
 #pragma mark - 是否包含中文
 //是否包含中文
 - (BOOL)isIncludeChineseInString:(NSString*)str;

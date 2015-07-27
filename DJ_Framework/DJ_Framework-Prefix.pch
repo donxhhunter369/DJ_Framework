@@ -37,6 +37,8 @@
 #import "DJAnalyzer.h"
 #import "DJCommon.h"
 #import <SAMCategories.h>
+#import <SSKeychain.h>
+#import <SSKeychainQuery.h>
 
 #pragma mark - 宏定义
 
@@ -44,14 +46,18 @@
 #define isPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define DistanceFromTopGuiden(view) (view.frame.origin.y + view.frame.size.height)
 #define DistanceFromLeftGuiden(view) (view.frame.origin.x + view.frame.size.width)
-#define ViewOrigin(view)   (view.frame.origin)
-#define ViewSize(view)  (view.frame.size)
-#define ScreenSize [UIScreen mainScreen].bounds.size
-#define OutNULL(x) (([x isKindOfClass:[NSNull class]] || !x) ? @"" : [NSString stringWithFormat:@"%@",x])
-#define OutIntNull(x) (([x isKindOfClass:[NSNumber class]] || [x isKindOfClass:[NSString class]]) ? [x integerValue] : 0)
+#define ViewOrigin(view)    (view.frame.origin)
+#define ViewSize(view)      (view.frame.size)
+#define ScreenSize          [UIScreen mainScreen].bounds.size
+#define SCREEN_WIDTH        ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT       ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH   (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH   (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define OutNULL(x)      (([x isKindOfClass:[NSNull class]] || !x) ? @"" : [NSString stringWithFormat:@"%@",x])
+#define OutIntNull(x)   (([x isKindOfClass:[NSNumber class]] || [x isKindOfClass:[NSString class]]) ? [x integerValue] : 0)
 #define OutFloatNull(x) (([x isKindOfClass:[NSNumber class]] || [x isKindOfClass:[NSString class]]) ? [x doubleValue] : 0.0)
-#define OutUIntNull(x) (([x isKindOfClass:[NSNumber class]] || [x isKindOfClass:[NSString class]]) ? [x integerValue] : 0)
-#define OutBoolNull(x) (([x isKindOfClass:[NSNumber class]] || [x isKindOfClass:[NSString class]]) ? [x boolValue] : NO)
+#define OutUIntNull(x)  (([x isKindOfClass:[NSNumber class]] || [x isKindOfClass:[NSString class]]) ? [x integerValue] : 0)
+#define OutBoolNull(x)  (([x isKindOfClass:[NSNumber class]] || [x isKindOfClass:[NSString class]]) ? [x boolValue] : NO)
 #define BGDefaultColor  [UIColor colorWithRed:235.0/255.0 green:235.0/255.0 blue:235.0/255.0 alpha:1.0]
 
 

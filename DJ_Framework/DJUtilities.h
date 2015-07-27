@@ -89,6 +89,7 @@
 + (BOOL)isIPhone5;//是否是iPone5
 + (BOOL)isIOS7Later;//是否是ios7及以后的版本
 + (BOOL)isIPad;
++ (NSString *)appIdentifier;
 
 @end
 

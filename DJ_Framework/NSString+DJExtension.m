@@ -201,6 +201,109 @@
     
     return NO;
 }
+
+#pragma mark - substring
+- (NSString *)substringFromIndex:(NSUInteger)from untilString:(NSString *)string
+{
+    return [self substringFromIndex:from untilString:string endOffset:NULL];
+}
+
+- (NSString *)substringFromIndex:(NSUInteger)from untilString:(NSString *)string endOffset:(NSUInteger *)endOffset
+{
+    if ( 0 == self.length )
+        return nil;
+    
+    if ( from >= self.length )
+        return nil;
+    
+    NSRange range = NSMakeRange( from, self.length - from );
+    NSRange range2 = [self rangeOfString:string options:NSCaseInsensitiveSearch range:range];
+    
+    if ( NSNotFound == range2.location )
+    {
+        if ( endOffset )
+        {
+            *endOffset = range.location + range.length;
+        }
+        
+        return [self substringWithRange:range];
+    }
+    else
+    {
+        if ( endOffset )
+        {
+            *endOffset = range2.location + range2.length;
+        }
+        
+        return [self substringWithRange:NSMakeRange(from, range2.location - from)];
+    }
+}
+
+- (NSString *)substringFromIndex:(NSUInteger)from untilCharset:(NSCharacterSet *)charset
+{
+    return [self substringFromIndex:from untilCharset:charset endOffset:NULL];
+}
+
+- (NSString *)substringFromIndex:(NSUInteger)from untilCharset:(NSCharacterSet *)charset endOffset:(NSUInteger *)endOffset
+{
+    if ( 0 == self.length )
+        return nil;
+    
+    if ( from >= self.length )
+        return nil;
+    
+    NSRange range = NSMakeRange( from, self.length - from );
+    NSRange range2 = [self rangeOfCharacterFromSet:charset options:NSCaseInsensitiveSearch range:range];
+    
+    if ( NSNotFound == range2.location )
+    {
+        if ( endOffset )
+        {
+            *endOffset = range.location + range.length;
+        }
+        
+        return [self substringWithRange:range];
+    }
+    else
+    {
+        if ( endOffset )
+        {
+            *endOffset = range2.location + range2.length;
+        }
+        
+        return [self substringWithRange:NSMakeRange(from, range2.location - from)];
+    }
+}
+
+- (NSUInteger)countFromIndex:(NSUInteger)from inCharset:(NSCharacterSet *)charset
+{
+    if ( 0 == self.length )
+        return 0;
+    
+    if ( from >= self.length )
+        return 0;
+    
+    NSCharacterSet * reversedCharset = [charset invertedSet];
+    
+    NSRange range = NSMakeRange( from, self.length - from );
+    NSRange range2 = [self rangeOfCharacterFromSet:reversedCharset options:NSCaseInsensitiveSearch range:range];
+    
+    if ( NSNotFound == range2.location )
+    {
+        return self.length - from;
+    }
+    else
+    {
+        return range2.location - from;		
+    }
+}
+
+
+
+
+
+
+
 #pragma mark - 是否包含中文
 - (BOOL)isIncludeChineseInString:(NSString*)str {
     for (int i=0; i<str.length; i++) {

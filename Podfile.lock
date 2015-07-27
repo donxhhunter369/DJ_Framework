@@ -58,6 +58,7 @@ DEPENDENCIES:
   - SAMCategories (~> 0.5.1)
   - SDWebImage (~> 3.6)
   - SGActionView
+  - SSKeychain
   - SSKeychain (~> 1.2.2)
   - TouchJSON (~> 1.1)
   - ZXingObjC (~> 3.0)
