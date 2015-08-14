@@ -31,8 +31,7 @@ static DJDBQueueManager *sharedInstance = nil;
                 return;
             }
             [db executeUpdate:upSupplier_queue_table];
-            //            NSLog(@"%@表 创建 %@",OKW_QUEUE_TABLE_UPSUPPLIER,([db executeUpdate:upSupplier_queue_table] ? @"成功" : @"失败"));
-            //            NSLog(@"%@表 创建 %@",OKW_QUEUE_TABLE_DOWNUSERS,([db executeUpdate:downUsers_queue_table] ? @"成功" : @"失败"));
+            DJLog(@"%@表 创建 %@",OKW_QUEUE_TABLE_UPSUPPLIER,([db executeUpdate:upSupplier_queue_table] ? @"成功" : @"失败"));
         }];
     });
     return sharedInstance;

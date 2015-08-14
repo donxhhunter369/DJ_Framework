@@ -691,4 +691,30 @@ DEF_SINGLETON( DJRuntime )
     return [DJ_Runtime callframes:MAX_CALLSTACK_DEPTH];
 }
 
++(void)printInformation:(NSString *)str{
+    unsigned int count;
+    objc_property_t * propertyList = class_copyPropertyList(NSClassFromString(str), &count);
+    for (unsigned int i = 0; i < count; i++) {
+        const char *propertyName = property_getName(propertyList[i]);
+        NSLog(@"property--->%@",[NSString stringWithUTF8String:propertyName]);
+    }
+    Method * methodList = class_copyMethodList(NSClassFromString(str), &count);
+    for (unsigned int i = 0; i < count; i++) {
+        Method method = methodList[i];
+        NSLog(@"method--->%@",NSStringFromSelector(method_getName(method)));
+    }
+    Ivar *ivarList = class_copyIvarList(NSClassFromString(str), &count);
+    for (unsigned int i = 0; i < count; i++) {
+        Ivar myIvar = ivarList[i];
+        const char *ivarName = ivar_getName(myIvar);
+        NSLog(@"Ivar--->%@",[NSString stringWithUTF8String:ivarName]);
+    }
+    __unsafe_unretained Protocol **protocolList = class_copyProtocolList(NSClassFromString(str), &count);
+    for (unsigned int i = 0; i < count; i++) {
+        Protocol *myProtocal = protocolList[i];
+        const char *protocolName = protocol_getName(myProtocal);
+        NSLog(@"protocol--->%@",[NSString stringWithUTF8String:protocolName]);
+    }
+}
+
 @end

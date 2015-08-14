@@ -9,12 +9,22 @@
 #ifndef DJ_Framework_DJCommon_h
 #define DJ_Framework_DJCommon_h
 
+#pragma mark - 预编译
+#import "DJBaseNavigationController.h"
+#import "DJBaseViewController.h"
+#import "DJBaseTabBarController.h"
+#import "DJUserConfig.h"
+#import "DJUtilities.h"
+#import "DJ_Precompile.h"
+#import "DJ_Singleton.h"
+#import "DJHttpTool.h"
+#import "DJNetRequest.h"
+#import "DJAnalyzer.h"
+
 #pragma mark -
 #undef	ERROR
 #define ERROR( ... )
 
-#pragma mark - Precompile 添加category和extension预编译
-#import "DJ_Precompile.h"
 
 // 日志输出宏定义
 #define DJDEBUG

@@ -127,4 +127,7 @@ AS_SINGLETON( DJ_Runtime )
 + (void)printCallstack:(NSUInteger)depth;
 + (void)breakPoint;
 
+//打印当前页面的四个属性值:property---method---Ivar---protocol
++(void)printInformation:(NSString *)str;
+
 @end

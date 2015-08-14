@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface DJBaseViewController : ViewController
+@interface DJBaseViewController : UIViewController
 
 @end

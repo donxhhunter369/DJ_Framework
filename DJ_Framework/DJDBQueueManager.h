@@ -20,4 +20,6 @@
 //-(OKWUpSupplierListModel *)upSupplierModelWithWeiNo:(NSString *)weiNo;
 //-(void)db_deleteAllDataUpSupplierModelWith:(NSString *)weiNo;
 
+
+
 @end

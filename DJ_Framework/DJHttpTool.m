@@ -29,7 +29,7 @@ static DJHttpTool *shareInstance = nil;
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
     [manager POST:path parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         if([responseObject isKindOfClass:[NSDictionary class]] && [responseObject[@"Statu"] integerValue] == -1){//票据过期
-
+            //do something...
         }else if (success) {
             success(responseObject);
         }

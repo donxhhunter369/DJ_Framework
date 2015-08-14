@@ -28,6 +28,7 @@ static DJUtilities *shareInstance = nil;
     });
     return shareInstance;
 }
+
 #pragma mark  是否允许"接收通知"
 -(void)saveAllowReceiveNotify:(BOOL)isAllowReceiveNotify
 {

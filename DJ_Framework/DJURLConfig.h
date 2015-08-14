@@ -9,7 +9,7 @@
 #ifndef DJ_Framework_DJURLConfig_h
 #define DJ_Framework_DJURLConfig_h
 
-static NSString * const AppStore_AppID = @"897046858";
+static NSString * const AppStore_AppID = @"00000000";
 
 //#define DJ_DEBUG
 #ifdef DJ_DEBUG //DEBUG

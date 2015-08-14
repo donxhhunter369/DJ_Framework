@@ -23,7 +23,6 @@ static DJUserConfig *shareInstance = nil;
 }
 
 
-
 #pragma mark 退出登录要清理的数据
 -(void)logoutClean
 {

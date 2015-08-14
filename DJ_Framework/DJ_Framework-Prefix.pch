@@ -20,22 +20,14 @@
 #import <CoreData/CoreData.h>
 #endif
 
-
+#pragma mark - 预编译
 #import "AppDelegate.h"
-#import "DJBaseNavigationController.h"
-#import "DJBaseViewController.h"
-#import "DJBaseTabBarController.h"
-#import "DJUserConfig.h"
-#import "DJUtilities.h"
+#import "DJCommon.h"//自定义的基类
 #import <objc/runtime.h>
 #import "JSONKit.h"
 #import "MBProgressHUD.h"
 #import "NSData+SAMAdditions.h"
 #import "AFNetworking.h"
-#import "DJHttpTool.h"
-#import "DJNetRequest.h"
-#import "DJAnalyzer.h"
-#import "DJCommon.h"
 #import <SAMCategories.h>
 #import <SSKeychain.h>
 #import <SSKeychainQuery.h>

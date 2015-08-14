@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180869A61B68AF9F00B17CD6 /* UITextField+DJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 180869A51B68AF9F00B17CD6 /* UITextField+DJExtension.m */; };
+		180869A91B68B00100B17CD6 /* DJUnderlineTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 180869A81B68B00100B17CD6 /* DJUnderlineTextField.m */; };
 		181BB3CB1B65CAAC0045B5E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181BB3CA1B65CAAC0045B5E1 /* Security.framework */; };
 		181BB3CF1B65DC770045B5E1 /* DJ_Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB3CE1B65DC770045B5E1 /* DJ_Keychain.m */; };
 		1834B4FC1B5DDB0A0072EE82 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834B4F91B5DDB0A0072EE82 /* AwesomeMenu.m */; };
@@ -127,6 +129,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180869A41B68AF9F00B17CD6 /* UITextField+DJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DJExtension.h"; sourceTree = "<group>"; };
+		180869A51B68AF9F00B17CD6 /* UITextField+DJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DJExtension.m"; sourceTree = "<group>"; };
+		180869A71B68B00100B17CD6 /* DJUnderlineTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJUnderlineTextField.h; sourceTree = "<group>"; };
+		180869A81B68B00100B17CD6 /* DJUnderlineTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJUnderlineTextField.m; sourceTree = "<group>"; };
 		181BB3CA1B65CAAC0045B5E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		181BB3CD1B65DC770045B5E1 /* DJ_Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJ_Keychain.h; sourceTree = "<group>"; };
 		181BB3CE1B65DC770045B5E1 /* DJ_Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJ_Keychain.m; sourceTree = "<group>"; };
@@ -329,6 +335,8 @@
 				18D00C651B463E32006556E8 /* DJMyImageRightButton.m */,
 				18D00C6B1B465E4D006556E8 /* DJVerifyButton.h */,
 				18D00C6C1B465E4D006556E8 /* DJVerifyButton.m */,
+				180869A71B68B00100B17CD6 /* DJUnderlineTextField.h */,
+				180869A81B68B00100B17CD6 /* DJUnderlineTextField.m */,
 			);
 			name = DJMySelfLibs;
 			sourceTree = "<group>";
@@ -664,6 +672,8 @@
 				1834B51A1B5DF5620072EE82 /* NSObject+DJJSON.m */,
 				1834B51C1B5DF6670072EE82 /* NSDictionary+DJExtension.h */,
 				1834B51D1B5DF6670072EE82 /* NSDictionary+DJExtension.m */,
+				180869A41B68AF9F00B17CD6 /* UITextField+DJExtension.h */,
+				180869A51B68AF9F00B17CD6 /* UITextField+DJExtension.m */,
 				1834B50D1B5DF0D30072EE82 /* DJ_Runtime.h */,
 				1834B50E1B5DF0D30072EE82 /* DJ_Runtime.m */,
 				1834B5101B5DF1590072EE82 /* DJ_Singleton.h */,
@@ -911,9 +921,11 @@
 				18D00C4A1B463AEB006556E8 /* NSString+OKW.m in Sources */,
 				18D00C6A1B463E94006556E8 /* CoreAnimationEffect.m in Sources */,
 				18FC2E3F1B5CF9E5000F805C /* NSString+DJExtension.m in Sources */,
+				180869A61B68AF9F00B17CD6 /* UITextField+DJExtension.m in Sources */,
 				18D00BD91B461D22006556E8 /* FirstViewController.m in Sources */,
 				1834B50F1B5DF0D30072EE82 /* DJ_Runtime.m in Sources */,
 				18CF8C1F1B45410900520270 /* DJBaseTabBarController.m in Sources */,
+				180869A91B68B00100B17CD6 /* DJUnderlineTextField.m in Sources */,
 				18D00BDC1B461D2E006556E8 /* SecondViewController.m in Sources */,
 				18D00C661B463E32006556E8 /* DJMyImageRightButton.m in Sources */,
 				18D00BDF1B461D38006556E8 /* ThirdViewController.m in Sources */,

@@ -67,7 +67,7 @@
     
     //添加心跳
     [NSThread detachNewThreadSelector:@selector(heartBitLoop) toTarget:self withObject:nil];
-
+    
     return YES;
 }
 #pragma mark - 设置全局NavigationBar属性
